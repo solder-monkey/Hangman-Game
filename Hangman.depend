@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1478466466 source:/home/steve/Documents/cpp/Hangman/main.cpp
+	<iostream>
+	<unistd.h>
+	<ncurses.h>
+	<Hangman.h>
+	<string>
+
+1478466579 /home/steve/Documents/cpp/Hangman/include/Hangman.h
+	<ncurses.h>
+	<string>
+

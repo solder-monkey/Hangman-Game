@@ -10,12 +10,12 @@ class TheHangman{
 	public:
 		TheHangman() {_missesRemaining = 6;}
 
-		bool addMiss(){return --_missesRemaining; }
+        bool addMiss(){return --_missesRemaining; }
         int missesRemaining() {return _missesRemaining;}
 
 		void draw(WINDOW *win){
             wmove(win,2,0);
-			wprintw(win,"    /----\\\n    |    %c\n    |   %c%c%c\n    |   %c %c\n  __|__",
+            wprintw(win,"    /----\\\n    |    %c\n    |   %c%c%c\n    |   %c %c\n  __|__",
 				_missesRemaining<6?'0' :' ',
 				_missesRemaining<5?'/' :' ',
 				_missesRemaining<4?'|' :' ',
